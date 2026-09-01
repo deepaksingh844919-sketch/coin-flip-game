@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deepaksingh844919-sketch.github.io/coin-flip-game/sitemap.xml
