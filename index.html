@@ -13,7 +13,61 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Coin Flip</title>
+<title>Coin Flip Game – Heads or Tails Online</title>
+<meta name="description" content="Play a free online coin flip game. Choose Heads or Tails, toss the virtual coin, build winning streaks, earn XP, complete daily challenges, and track your accuracy.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Coin Flip Game">
+<link rel="canonical" href="https://deepaksingh844919-sketch.github.io/coin-flip-game/">
+
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Coin Flip Game – Heads or Tails Online">
+<meta property="og:description" content="Play a free online coin flip game with streaks, XP, daily challenges, achievements, and statistics.">
+<meta property="og:url" content="https://deepaksingh844919-sketch.github.io/coin-flip-game/">
+<meta property="og:site_name" content="Coin Flip Game">
+
+<!-- Search engine hints -->
+<meta name="keywords" content="coin flip game, online coin flip, coin toss game, heads or tails, virtual coin flip, free coin flip game, coin toss online">
+
+<!-- FAQ structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Coin Flip Game – Heads or Tails Online",
+  "description": "A free online coin flip game where players choose Heads or Tails, toss a virtual coin, track accuracy and streaks, earn XP, and complete daily challenges.",
+  "url": "https://deepaksingh844919-sketch.github.io/coin-flip-game/",
+  "mainEntity": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do you play the online coin flip game?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Choose Heads or Tails, then select Toss Coin to flip the virtual coin and see the result. Your predictions, accuracy, streaks, XP, and recent tosses are tracked in the game."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the two outcomes of a coin flip?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A standard coin flip has two possible outcomes: Heads and Tails."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is a fair coin flip 50/50?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For a fair coin, Heads and Tails each have an approximately 50 percent probability on an individual toss."
+        }
+      }
+    ]
+  }
+}
+</script>
 
 <style>
 
@@ -40,7 +94,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    flex-direction: column;
+    padding: 30px 0 50px;
     overflow-x: hidden;
 }
 
@@ -888,9 +943,54 @@ h1 {
 }
 
 
-/* MOBILE */
+/* SEO CONTENT */
+
+.seo-content {
+    width: min(90%, 760px);
+    margin: 28px auto 0;
+    padding: 28px 30px;
+    color: #c8c8c8;
+    background: rgba(255,255,255,0.035);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 18px;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.seo-content h2 {
+    margin: 0 0 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.seo-content h3 {
+    margin: 24px 0 7px;
+    color: #ffe06b;
+    font-size: 18px;
+}
+
+.seo-content p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.seo-content ol {
+    margin: 8px 0;
+    padding-left: 22px;
+    font-size: 14px;
+}
+
+.seo-content li {
+    margin: 5px 0;
+}
 
 @media (max-width: 500px) {
+    .seo-content {
+        width: calc(100% - 30px);
+        padding: 22px 18px;
+    }
+
+
 
     .game {
         padding: 30px 20px;
@@ -1193,6 +1293,31 @@ h1 {
 
 </main>
 
+
+<!-- SEO-FRIENDLY INFORMATION -->
+<section class="seo-content" aria-label="About the Coin Flip Game">
+    <h2>Free Online Coin Flip Game</h2>
+    <p>Play a simple and fun <strong>online coin flip game</strong> and test your prediction skills. Choose Heads or Tails, toss the virtual coin, and see whether your prediction matches the result.</p>
+
+    <h3>How to Play</h3>
+    <ol>
+        <li>Choose <strong>Heads</strong> or <strong>Tails</strong>.</li>
+        <li>Click <strong>Toss Coin</strong>.</li>
+        <li>Watch the virtual coin flip and check the result.</li>
+        <li>Build your winning streak, earn XP, and improve your accuracy.</li>
+    </ol>
+
+    <h3>Track Your Coin Toss Performance</h3>
+    <p>This coin toss game includes player statistics, current and best streaks, accuracy tracking, recent toss history, XP and levels, achievements, and daily challenges.</p>
+
+    <h3>Heads or Tails</h3>
+    <p>A standard coin flip has two possible outcomes: Heads and Tails. For a fair coin, each outcome has an approximately 50% probability on an individual toss.</p>
+
+    <h3>Frequently Asked Questions</h3>
+    <p><strong>How do I flip a coin online?</strong><br>Choose Heads or Tails and click the Toss Coin button to perform a virtual coin toss.</p>
+    <p><strong>Can I track my coin flip results?</strong><br>Yes. The game tracks your games, accuracy, current streak, best streak, XP, achievements, and recent tosses.</p>
+    <p><strong>Is this coin flip game free?</strong><br>Yes. You can play the online coin flip game for free.</p>
+</section>
 
 <!-- SUPABASE JAVASCRIPT LIBRARY -->
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
